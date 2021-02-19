@@ -24,7 +24,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/CPU'
-  /sum:
+  /sum/<arg1>/<arg2>:
     get:
       tags:
         - CPU
